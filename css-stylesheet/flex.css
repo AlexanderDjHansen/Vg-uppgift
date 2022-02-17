@@ -8,12 +8,13 @@
     /***********
     *** FLEX ***
     ************/
-    
+
     .flex-row {flex-direction: row;}
     .flex-column {flex-direction: column;}
     .flex-grow { flex-grow: 1; }
     .flex-row-reverse {flex-direction: row-reverse;}
     .flex-wrap {flex-wrap: wrap;}
+    .flex-gap {gap: var(--distance-4);}
 
     /**********************
     *** JUSTIFY & ALIGN ***
