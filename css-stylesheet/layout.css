@@ -5,7 +5,7 @@
     .card-width {max-width: 60rem;}
     .width-lg {max-width: 50%;}
     .min-width-xxl {min-width: 85%;}
-    .min-width-searchbar {min-width: 100%;}
+    .full-width {width: 100%;}
 
     
         /*************
