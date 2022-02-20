@@ -6,7 +6,15 @@
     .width-lg {max-width: 50%;}
     .min-width-xxl {min-width: 85%;}
     .full-width {width: 100%;}
-    .menu-width {max-width: 28.8;}
+    /* menu-width {max-width: 40rem;} */
+    .products-min-width {min-width: 25%;}
+    .menu-min-width {min-width: 15%;}
+    .min-max-width {max-width: 12%;
+    max-width: 30%;}
+    .max-height-width {
+     
+        max-width: 40rem}
+    
 
     
         /*************
@@ -17,8 +25,21 @@
         .overflow-hidden {overflow: hidden;}
         .centerXY {
             top: 50%;
-            left: 50%;
+            right: 50%;
             transform: translate(-50%, -50%); /* Förskjuta tillbaka till mitten */
+        }
+        .bottom-right {
+            right: 4%;
+            bottom: 5%;
+        }
+        .bottom-left{
+            left: 0%;
+            bottom: 5%;
+        }
+
+        .top-right {
+            right: 5%;
+            top: 2%;
         }
     
     
@@ -41,6 +62,8 @@
     .mb-1, .my-1 {margin-bottom: var(--distance-1);}    /* 0.25rem */
     .mt-2, .my-2 {margin-top: var(--distance-2);}       /* 0.5rem */
     .mb-2, .my-2 {margin-bottom: var(--distance-2);}    /* 0.5rem */
+    .mt-3, .my-3 {margin-top: var(--distance-3);}       /* 1rem */
+    .mb-3, .my-3 {margin-bottom: var(--distance-3);}    /* 1rem */
     .mt-4, .my-4 {margin-top: var(--distance-4);}       /* 1rem */
     .mb-4, .my-4 {margin-bottom: var(--distance-4);}    /* 1rem */
     .mt-6, .my-6 {margin-top: var(--distance-6);}       /* 1.5 rem */
@@ -105,6 +128,9 @@
         .text-size-xl {font-size: var(--display-xl);}
         .text-size-xxl {font-size: var(--display-xxl);}
     
+
+        /* Links */
+        div article a:hover {text-decoration: underline;}
     
     
        /**************
@@ -155,8 +181,6 @@
         .border-bottom {
             height: 100%;
             border-bottom: var(--border-sm);
-            
-
         }
     
 
@@ -171,6 +195,10 @@
         **************/
     .logo-width { max-width: 8rem;}
     .img-lg-width {max-width: 60%;}
+    .product-image-width {
+        max-width: 16rem;
+        max-height: 12rem;
+    }
     
        /*****************
         *** Slideshow ***

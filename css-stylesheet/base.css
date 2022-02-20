@@ -23,7 +23,7 @@
     **************/
 
     --display-xxs:1rem;
-    --display-xs:1.4rem;
+    --display-xs:1.3rem;
     --display-sm:1.6rem;
     --display-md:1.8rem;
     --display-lg:2rem;
@@ -144,6 +144,7 @@ body {
 .text-white{color: var(--color-white);}
 .text-cozy{color: var(--color-cozy);}
 .text-light-blue{color: var(--color-light-blue);}
+.text-dark-transparent{color: var(--color-dark-transparent);}
 
 /********************
 *** BORDER COLORS ***
