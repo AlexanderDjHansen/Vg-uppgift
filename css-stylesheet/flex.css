@@ -4,6 +4,7 @@
 
 .d-flex { display: flex; }
 .d-none {display: none;}
+.d-inline-block {display: inline-block;}
 
     /***********
     *** FLEX ***

@@ -12,8 +12,9 @@
     .min-max-width {max-width: 12%;
     max-width: 30%;}
     .max-height-width {
-     
-        max-width: 40rem}
+     max-width: 40rem}
+
+
     
 
     
@@ -35,6 +36,7 @@
         .bottom-left{
             left: 0%;
             bottom: 5%;
+            
         }
 
         .top-right {
@@ -104,6 +106,8 @@
     
         .pr-4, .px-4 {padding-right: var(--distance-4);}
         .pl-4, .px-4 {padding-left: var(--distance-4);}
+        .pr-8, .px-8 {padding-right: var(--distance-8);}
+        .pl-8, .px-8 {padding-left: var(--distance-8);}
         .pr-12, .px-12 {padding-right: var(--distance-12);}
         .pl-12, .px-12 {padding-left: var(--distance-12);}
         
@@ -130,7 +134,10 @@
     
 
         /* Links */
-        div article a:hover {text-decoration: underline;}
+        .underline:hover {text-decoration: underline;}
+        .hover-shoppingcart:hover{color: rgb(9, 255, 0);}
+        .hover-heart:hover{color: var(--color-secondary);}
+        .hover-star:hover{color: gold;}
     
     
        /**************
@@ -173,6 +180,7 @@
         .border-left {border-left-width: 100%;}
         .border-none {border: 0;}
         .border-outline-none {outline: none;}
+
         .border-left {
             height: 100%;
             border-left: var(--border-sm);
@@ -228,9 +236,15 @@
         /************
         *** Icons ***
         *************/
+
+        .icon-size {
+            width: 22.25px;
+            height: 18px;
+        }
         .icon-feature {width: 7.6rem; height: 7.6rem; padding: 0.375rem;}
         .iron-circle {width: 6.2rem; height: 6.2rem; line-height: 6rem;}
         .icon-form-control {right: 10px; top: 10px;}
+        .icon-menu-size {width: 17.5px; height: 14px; margin-right: 5px;}
 
         /* Search bar */
         /* .border-none {border: none;} */
@@ -240,6 +254,7 @@
             color: white;
             padding: 8px;
             border: none;
+            cursor: pointer;
         }
 
         .dropdown {
@@ -262,6 +277,8 @@
             text-decoration: none;
             display: block;
           }
+
+            .show {display: block;}
 
             .dropdown-content a:hover {background-color: #ddd;}
             .dropdown:hover .dropdown-content {display: block;}
