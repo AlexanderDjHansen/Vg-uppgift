@@ -7,9 +7,10 @@
     .min-width-xxl {min-width: 85%;}
     .full-width {width: 100%;}
     .products-min-width {min-width: 25%;}
-    .menu-min-width {min-width: 15%;}
+    .menu-min-width {min-width: 23rem;}
     .max-height {max-height: 192rem;}
     .height {height: 32px;}
+    
 
     .min-max-width {
     max-width: 12%;
@@ -21,13 +22,10 @@
 
      .max-width-none{max-width: none;}
 
-
-    
-
-    
         /*************
         *** Position ***
         **************/
+
         .position-relative {position: relative !important;}
         .position-absolute {position: absolute !important;}
         .overflow-hidden {overflow: hidden;}
@@ -45,16 +43,15 @@
             bottom: 5%;
             
         }
-
         .top-right {
             right: 5%;
             top: 2%;
         }
     
-    
         /*************
         *** Margin ***
         **************/
+
     .mr-auto, .mx-auto {margin-right: auto;}  /* mx-auto påverkar marginalen på bägge sidor */
     .ml-auto, .mx-auto {margin-left: auto;}
     .mt-auto, .mp-auto {margin-top: auto;}  /* mx-auto påverkar marginalen på bägge sidor */
@@ -97,11 +94,9 @@
     .mr-8, .mx-8 {margin-right: var(--distance-8);}
     .ml-8, .mx-8 {margin-left: var(--distance-8);}
     
-    
        /***************
         *** Padding ***
         ***************/
-        .p-auto {padding: auto;}
 
         .p-2 {padding: var(--distance-2);}
         .p-3 {padding: var(--distance-3);}
@@ -122,10 +117,10 @@
         .pr-12, .px-12 {padding-right: var(--distance-12);}
         .pl-12, .px-12 {padding-left: var(--distance-12);}
         
-    
         /*****************
         *** Typography ***
         ******************/
+
         .text-decoration-none {text-decoration: none;}
         .text-center {text-align: center;}
         .text-uppercase {text-transform: uppercase;}
@@ -142,25 +137,28 @@
         .text-size-lg {font-size: var(--display-lg);}
         .text-size-xl {font-size: var(--display-xl);}
         .text-size-xxl {font-size: var(--display-xxl);}
-    
 
-        /* Links */
+        /*************
+         *** Links *** 
+         *************/
+
         .underline:hover {text-decoration: underline;}
         .hover-shoppingcart:hover{color: rgb(9, 255, 0);}
         .hover-heart:hover{color: var(--color-secondary);}
-        .hover-star:hover{color: gold;}
+        .hover-star:hover{color: gold; }
     
     
        /**************
         *** Circle ***
         **************/
+
         .circle {border-radius: 100%;}
         .circle-lg {width: 15rem; height: 15rem;}
-      /*   .rounded-corner {border-radius: 2%;} */
     
         /**************
         *** SHADOWS ***
         **************/
+
         .shadow-sm {box-shadow: var(--shadow-small-light);}
         .shadow-lg {box-shadow: var(--shadow-large-light);}
     
@@ -168,16 +166,6 @@
         *** Buttons ***
         **************/
 
-        /* nav div a:not(:first-child) {
-            margin-left: var(--distance-12);
-        } */
-
-        .icon-badge {
-            top: -3px;
-            right: -3px;
-            padding: 1px 6px
-        }
-    
         /**************
         *** Borders ***
         **************/
@@ -191,6 +179,7 @@
         .border-left {border-left-width: 100%;}
         .border-none {border: 0;}
         .border-outline-none {outline: none;}
+        .bb-none {border-bottom: none;}
 
         .border-left {
             height: 100%;
@@ -198,7 +187,6 @@
         }
 
         .border-bottom {
-            height: 100%;
             border-bottom: var(--border-sm);
         }
     
@@ -212,12 +200,10 @@
        /**************
         *** Images ***
         **************/
+
     .logo-width { max-width: 8rem;}
     .img-lg-width {max-width: 60%;}
-    .product-image-width {
-        max-width: 16rem;
-        max-height: 12rem;
-    }
+    .product-image-width {max-width: 16rem; max-height: 12rem;}
     
        /*****************
         *** Slideshow ***
@@ -248,6 +234,11 @@
         *** Icons ***
         *************/
 
+        .icon-badge {
+            top: -3px;
+            right: -3px;
+            padding: 1px 6px
+        }
         .icon-size {
             width: 22.25px;
             height: 18px;
@@ -266,28 +257,26 @@
             padding: 8px;
             border: none;
             cursor: pointer;
-        }
-
+            }
         .dropdown {
             position: relative;
             display: inline-block;
-          }
-
-          .dropdown-content {
+            }
+        .dropdown-content {
             display: none;
             position: absolute;
             background-color: #f1f1f1;
             min-width: 160px;
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
             z-index: 1;
-          }
+            }
 
-          .dropdown-content a {
+        .dropdown-content a {
             color: black;
             padding: 20px 15px;
             text-decoration: none;
             display: block;
-          }
+            }
 
             .dropdown-content a:hover {background-color: #ddd;}
             .dropdown:hover .dropdown-content {display: block;}
