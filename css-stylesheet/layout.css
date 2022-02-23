@@ -6,13 +6,20 @@
     .width-lg {max-width: 50%;}
     .min-width-xxl {min-width: 85%;}
     .full-width {width: 100%;}
-    /* menu-width {max-width: 40rem;} */
     .products-min-width {min-width: 25%;}
     .menu-min-width {min-width: 15%;}
-    .min-max-width {max-width: 12%;
+    .max-height {max-height: 192rem;}
+    .height {height: 32px;}
+
+    .min-max-width {
+    max-width: 12%;
     max-width: 30%;}
+
     .max-height-width {
-     max-width: 40rem}
+     max-width: 40rem;
+    max-height: 30rem;}
+
+     .max-width-none{max-width: none;}
 
 
     
@@ -50,6 +57,8 @@
         **************/
     .mr-auto, .mx-auto {margin-right: auto;}  /* mx-auto påverkar marginalen på bägge sidor */
     .ml-auto, .mx-auto {margin-left: auto;}
+    .mt-auto, .mp-auto {margin-top: auto;}  /* mx-auto påverkar marginalen på bägge sidor */
+    .mb-auto, .mp-auto {margin-bottom: auto;}
     .m-none {margin: 0;}
     .p-none {padding: 0;}
 
@@ -92,6 +101,8 @@
        /***************
         *** Padding ***
         ***************/
+        .p-auto {padding: auto;}
+
         .p-2 {padding: var(--distance-2);}
         .p-3 {padding: var(--distance-3);}
         .p-4 {padding: var(--distance-4);}
@@ -277,8 +288,6 @@
             text-decoration: none;
             display: block;
           }
-
-            .show {display: block;}
 
             .dropdown-content a:hover {background-color: #ddd;}
             .dropdown:hover .dropdown-content {display: block;}
