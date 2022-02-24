@@ -9,7 +9,7 @@
     .products-min-width {min-width: 25%;}
     .menu-min-width {min-width: 23rem;}
     .max-height {max-height: 192rem;}
-    .height {height: 32px;}
+    .height {height: 48px;}
     
 
     .min-max-width {
@@ -189,9 +189,7 @@
         .border-bottom {
             border-bottom: var(--border-sm);
         }
-    
 
-    
         /*******************
         *** Colored bars ***
         ********************/

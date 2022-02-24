@@ -49,7 +49,7 @@
     .center-align  { justify-content:center;}
 }
 
-@media only screen and (max-width: 33.5em) /* 536px */ {
+@media only screen and (max-width: 34.375em) /* 550px */ {
     .d-sm-none-profile-name {display: none !important;}
  
 }
@@ -59,7 +59,7 @@
     .flex-column-450px {flex-direction: column;}
     .d-sm-none-450px {display: none !important;}
     .d-sm-block-450px {display: block !important;}
-    
+    .width-450px {width: 100%;}
 }
 
 @media only screen and (max-width: 21.875em) /* 350px */ {
